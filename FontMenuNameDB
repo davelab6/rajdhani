@@ -1,0 +1,43 @@
+#!opentype
+
+# This file must be synced to `MM/instances`.
+# Entries `l` and `m` are required if this is not a typical
+#   style-linked Regular/Bold/Italic/BoldItalic family.
+
+# [PostScriptName]
+#   f=  Preferred Family Name
+#   s=  Subfamily Name (Style Name)
+#   l=  Compatible Family Menu Name
+#   m=1,Macintosh Compatible Full Name
+
+[Rajdhani-Light]
+  f=  Rajdhani
+  s=  Light
+  l=  Rajdhani Light
+  m=1,Rajdhani Light
+
+[Rajdhani-Regular]
+  f=  Rajdhani
+  s=  Regular
+  l=  Rajdhani
+  m=1,Rajdhani
+
+[Rajdhani-Medium]
+  f=  Rajdhani
+  s=  Medium
+  l=  Rajdhani Medium
+  m=1,Rajdhani Medium
+
+[Rajdhani-SemiBold]
+  f=  Rajdhani
+  s=  SemiBold
+  l=  Rajdhani SemiBold
+  m=1,Rajdhani SemiBold
+
+[Rajdhani-Bold]
+  f=  Rajdhani
+  s=  Bold
+  l=  Rajdhani
+  m=1,Rajdhani Bold
+# Style-linked because of `l` (the same as Regular's)
+#   and `styles/Bold/fontinfo` (`IsBoldStyle true`).

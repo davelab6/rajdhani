@@ -1,0 +1,12 @@
+#!opentype
+
+# `FontMenuNameDB` must be synced to this file.
+# Key `IsBold` has nothing to do with style-linking.
+
+#KEYS:FamilyName	FontName	FullName	Weight	Coords	IsBold
+
+Rajdhani	Rajdhani-Light	Rajdhani Light	Light	(0)	0
+Rajdhani	Rajdhani-Regular	Rajdhani	Regular	(210)	0
+Rajdhani	Rajdhani-Medium	Rajdhani Medium	Medium	(440)	0
+Rajdhani	Rajdhani-SemiBold	Rajdhani SemiBold	SemiBold	(700)	0
+Rajdhani	Rajdhani-Bold	Rajdhani Bold	Bold	(1000)	0

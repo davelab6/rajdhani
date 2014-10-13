@@ -1,0 +1,19 @@
+# Created: Mon Oct 13 21:42:18 2014
+# PS Name: Rajdhani-Regular
+# MM Inst: 210 : Liang-b131014-Rajdhani_0.ufo / Liang-b131014-Rajdhani_1.ufo
+# exported from noApp
+
+@mGC_abvm_Anusvara_n92_623 = [dvAnusvara dvCandrabindu dvmEcandra dvmEcandra_Anusvara];
+@mGC_abvm_Ekaar_n89_623 = [dvmAI_Anusvara dvmAI_Reph dvmAI_Reph_Anusvara dvmE_Reph dvmE_Reph_Anusvara];
+@mGC_abvm_Ekaar_n92_623 = [dvReph dvReph_Anusvara dvmAI dvmE dvmE_Anusvara];
+@mGC_abvm_Reph_alt_0_623 = [dvAnusvara.amI dvReph.amI dvReph_Anusvara.amI];
+
+markClass @mGC_abvm_Anusvara_n92_623 <anchor -92 623> @MC_abvm_Anusvara;
+markClass @mGC_abvm_Ekaar_n89_623 <anchor -89 623> @MC_abvm_Ekaar;
+markClass @mGC_abvm_Ekaar_n92_623 <anchor -92 623> @MC_abvm_Ekaar;
+markClass @mGC_abvm_Reph_alt_0_623 <anchor 0 623> @MC_abvm_Reph_alt;
+markClass dvVirama <anchor -140 0> @MC_blwm_halant;
+markClass dvmU <anchor -140 0> @MC_blwm_Ukaar;
+markClass dvmUU <anchor -140 0> @MC_blwm_Uukaar;
+markClass dvmvR <anchor -92 0> @MC_blwm_VocalicR;
+

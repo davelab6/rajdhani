@@ -1,0 +1,592 @@
+#!opentype
+
+# CLASSES
+
+@mI_BASES_INVALID = [.notdef];
+
+@mI_BASES_TOO_LONG = [.notdef];
+
+@mI_BASES_01 = [
+  dvRA
+  dvRxA
+];
+
+@mI_BASES_02 = [.notdef];
+
+@mI_BASES_03 = [
+  dvN_RA
+  dvD_B_RA
+  dvP_TTA
+  dvK_RA
+  dvTT_NA
+  dvD_GA
+  dvP_TTHA
+  dvD_G_RA
+  dvD_BA
+  dvTTA
+  dvDDA
+  dvTTHA
+  dvDD_DDHA
+  dvKA
+  dvKx_RA
+  dvDDxA
+  dvDDHxA
+  dvNGA
+  dvHA
+  dvTT_TTHA
+  dvKxA
+  dvTTH_RA
+  dvDDH_RA
+  dvDD_VA
+  dvTTH_TTHA
+  dvDA
+  dvTT_RA
+  dvD_RA
+  dvDD_DDA
+  dvDDH_DDHA
+  dvTT_VA
+  dvTTH_NA
+  dvDD_NA
+  dvD_VA
+  dvDDHA
+  dvNA
+  dvD_DA
+  dvTT_TTA
+  dvNG_RA
+  dvDD_RA
+];
+
+@mI_BASES_04 = [
+  dvPH_NA
+  dvB_RA
+  dvP_RA
+  dvPHx_RA
+  dvBHA
+  dvBA
+  dvT_RA
+  dvGxA
+  dvPHA
+  dvM_RA
+  dvTA
+  dvSS_TTA
+  dvSSA
+  dvGH_RA
+  dvV_RA
+  dvPA
+  dvGA
+  dvBH_RA
+  dvP_TA
+  dvPH_RA
+  dvD_BHA
+  dvVA
+  dvSS_TTHA
+  dvPHxA
+  dvMA
+  dvSS_TTH_RA
+  dvGHA
+  dvGx_RA
+  dvSS_TT_RA
+  dvH_RA
+  dvG_RA
+  dvSS_TT_VA
+];
+
+@mI_BASES_05 = [
+  dvJA
+  dvJ_RA
+  dvCH_RA
+  dvDH_RA
+  dvCHA
+  dvY_RA
+  dvDHA
+  dvD_YA
+  dvNY_RA
+  dvYA
+  dvH_NA
+  dvK_TA
+  dvJx_RA
+  dvNYA
+  dvJxA
+  dvD_Y_RA
+  dvCH_VA
+  dvT_TA
+];
+
+@mI_BASES_06 = [
+  dvSA
+  dvC_RA
+  dvJ_NYA
+  dvTH_RA
+  dvTHA
+  dvCA
+];
+
+@mI_BASES_07 = [
+  dvNN_RA
+  dvLLA
+  dvS_RA
+  dvD_GHA
+  dvEyelash_HA
+  dvLA
+  dvD_Y_BHA
+  dvNNA
+  dvN_TTA
+  dvD_DHA
+  dvN_DDA
+  dvJHA
+  dvSHA
+  dvSH_RA
+];
+
+@mI_BASES_08 = [
+  dvKHA
+  dvN_D_VA
+  dvN_D_RA
+  dvN_DA
+  dvN_HA
+  dvK_SSA
+  dvJH_RA
+  dvN_TA
+  dvKHxA
+  dvD_MA
+];
+
+@mI_BASES_09 = [
+  dvM_PA
+  dvN_PHA
+  dvKH_RA
+  dvN_VA
+  dvEyelash_YA
+  dvP_NA
+  dvT_VA
+  dvKHx_RA
+  dvN_DHA
+  dvM_DA
+  dvM_HA
+  dvT_MA
+  dvN_KA
+  dvP_MA
+  dvV_HA
+  dvN_PH_RA
+  dvG_GA
+  dvN_NA
+  dvM_P_RA
+  dvT_P_RA
+  dvN_MA
+  dvN_BHA
+  dvN_T_RA
+  dvJ_DDA
+  dvT_K_RA
+  dvT_KA
+  dvH_MA
+  dvG_DA
+  dvT_PHA
+  dvT_PA
+  dvN_PA
+  dvN_P_RA
+  dvP_PHA
+];
+
+@mI_BASES_10 = [
+  dvM_TA
+  dvP_VA
+  dvSS_SSA
+  dvG_BHA
+  dvM_MA
+  dvB_DA
+  dvB_BA
+  dvG_NA
+  dvJ_KA
+  dvGH_MA
+  dvM_NA
+  dvJ_DA
+  dvB_VA
+  dvN_DH_RA
+  dvN_CHA
+  dvGH_NA
+  dvV_VA
+  dvJ_TTA
+  dvB_BHA
+  dvDH_MA
+  dvN_YA
+  dvSS_KA
+  dvDH_VA
+  dvM_B_RA
+  dvM_VA
+  dvT_NA
+  dvG_BA
+  dvH_YA
+  dvBH_NA
+  dvM_BHA
+  dvS_T_RA
+  dvB_TA
+  dvSS_P_RA
+  dvBH_VA
+  dvP_PA
+  dvG_MA
+  dvM_BA
+  dvM_BH_RA
+  dvSS_PHA
+  dvG_VA
+  dvSS_K_RA
+  dvSS_MA
+  dvB_BH_RA
+  dvDH_NA
+];
+
+@mI_BASES_11 = [
+  dvJ_MA
+  dvBH_YA
+  dvN_SA
+  dvT_T_VA
+  dvC_MA
+  dvJ_VA
+  dvP_YA
+  dvG_JA
+  dvG_GHA
+  dvS_P_RA
+  dvY_NA
+  dvS_DA
+  dvS_K_RA
+  dvS_MA
+  dvM_YA
+  dvG_YA
+  dvS_PHA
+  dvJ_NA
+  dvSS_VA
+  dvJ_BA
+  dvM_SA
+  dvJ_TA
+  dvS_PA
+  dvNN_DDA
+  dvB_DHA
+  dvV_NA
+  dvN_THA
+  dvG_R_YA
+  dvS_TA
+  dvS_KA
+  dvG_DHA
+  dvS_TTA
+  dvSH_TTA
+  dvT_YA
+  dvB_NA
+  dvT_R_YA
+  dvP_SA
+  dvNY_CHA
+  dvS_NA
+  dvL_DDA
+];
+
+@mI_BASES_12 = [
+  dvT_THA
+  dvT_SA
+  dvL_HA
+  dvJH_NA
+  dvL_KA
+  dvL_DDHA
+  dvTH_VA
+  dvJH_MA
+  dvL_TTHA
+  dvC_CH_VA
+  dvBH_R_YA
+  dvG_SA
+  dvSS_YA
+  dvL_TTA
+  dvJ_JA
+  dvL_DA
+  dvS_BA
+  dvSH_MA
+  dvC_NA
+  dvB_YA
+  dvNN_TTA
+  dvSH_TA
+  dvS_VA
+  dvGH_YA
+  dvM_SHA
+  dvL_BHA
+  dvJx_YA
+  dvG_LA
+  dvL_PHA
+  dvS_SA
+  dvV_YA
+  dvNN_DDHA
+  dvSH_KxA
+  dvSH_NA
+  dvT_T_YA
+  dvL_D_RA
+  dvNN_TTHA
+  dvB_SA
+  dvM_LA
+  dvN_CA
+  dvB_JxA
+  dvB_JA
+  dvT_LA
+  dvC_CA
+  dvL_PA
+  dvDH_YA
+  dvP_LA
+  dvSH_VA
+  dvL_MA
+  dvL_TA
+  dvSH_KA
+  dvJ_YA
+  dvBH_LA
+  dvTH_NA
+];
+
+@mI_BASES_13 = [
+  dvSH_CHA
+  dvNY_CA
+  dvY_YA
+  dvB_SHA
+  dvB_LA
+  dvL_VA
+  dvV_LA
+  dvNN_MA
+  dvJ_J_NYA
+  dvDD_YA
+  dvC_YA
+  dvG_NNA
+  dvNY_JA
+  dvL_GA
+  dvC_CHA
+  dvJ_JHA
+  dvS_YA
+  dvK_TTA
+  dvH_VA
+  dvL_BA
+  dvNY_SHA
+  dvJ_NY_YA
+  dvNN_VA
+  dvK_SS_MA
+];
+
+@mI_BASES_14 = [
+  dvK_P_RA
+  dvNN_YA
+  dvPH_TTA
+  dvSH_YA
+  dvDDH_YA
+  dvK_KA
+  dvS_LA
+  dvKH_NA
+  dvK_DA
+  dvTTH_YA
+  dvT_KHA
+  dvL_YA
+  dvTT_YA
+  dvB_JHA
+  dvS_JA
+  dvT_K_SSA
+  dvK_PA
+  dvL_JA
+  dvSS_NNA
+  dvD_NA
+  dvJH_YA
+  dvSH_CA
+  dvK_MA
+  dvS_THA
+  dvT_KH_RA
+  dvSS_PA
+  dvK_PHA
+  dvCH_NA
+  dvK_SS_VA
+  dvTH_YA
+];
+
+@mI_BASES_15 = [
+  dvKx_KxA
+  dvL_SA
+  dvK_NA
+  dvSH_SHA
+  dvSH_LA
+  dvCH_YA
+  dvK_VA
+  dvPH_PA
+  dvPHx_PHxA
+  dvPH_PHA
+  dvL_THA
+  dvKx_MA
+  dvN_DH_VA
+  dvLL_YA
+  dvPH_TA
+  dvK_SS_YA
+  dvL_LA
+  dvS_KHA
+  dvKx_PHxA
+  dvKHx_MA
+  dvKH_TA
+  dvN_BH_VA
+  dvKHx_VA
+  dvPHx_TA
+  dvSS_TTH_YA
+  dvJx_JxA
+  dvKx_TA
+  dvKx_PHA
+  dvK_T_RA
+  dvKx_BA
+  dvKH_VA
+  dvKH_MA
+  dvSS_TT_YA
+  dvKHx_TA
+];
+
+@mI_BASES_16 = [
+  dvG_N_YA
+  dvK_YA
+  dvN_T_YA
+  dvH_LA
+  dvP_T_YA
+  dvKH_YA
+  dvM_BH_VA
+  dvPH_YA
+  dvCH_R_YA
+  dvNN_NNA
+  dvKHx_YA
+  dvK_CA
+  dvK_JA
+  dvN_S_TTA
+];
+
+@mI_BASES_17 = [
+  dvPHx_SA
+  dvKH_SHA
+  dvK_THA
+  dvN_T_SA
+  dvM_BH_YA
+  dvM_B_YA
+  dvT_N_YA
+  dvPHx_JxA
+  dvN_BH_YA
+  dvL_JxA
+  dvB_DH_VA
+  dvK_SA
+  dvK_LA
+  dvK_SHA
+  dvT_M_YA
+  dvN_M_YA
+  dvH_NNA
+  dvKHx_SA
+  dvS_T_VA
+  dvG_DH_VA
+  dvN_DH_YA
+  dvN_N_YA
+  dvDH_N_YA
+  dvL_KHA
+  dvSS_M_YA
+  dvT_S_VA
+  dvPH_JA
+  dvN_TH_VA
+  dvKHx_SHA
+];
+
+@mI_BASES_18 = [
+  dvJ_J_VA
+  dvT_P_LA
+  dvPH_SHA
+  dvPH_LA
+  dvN_S_YA
+  dvG_DH_YA
+  dvK_NNA
+  dvG_BH_YA
+  dvS_T_YA
+  dvL_V_DDA
+];
+
+@mI_BASES_19 = [
+  dvB_J_YA
+  dvS_M_YA
+  dvK_KHA
+  dvN_TH_YA
+  dvT_S_YA
+];
+
+@mI_BASES_20 = [
+  dvKH_KHA
+  dvJ_J_YA
+  dvT_K_VA
+  dvK_T_VA
+];
+
+@mI_BASES_21 = [
+  dvK_S_TTA
+  dvSS_NN_YA
+  dvK_S_DDA
+  dvS_TH_YA
+  dvK_SS_M_YA
+  dvB_L_YA
+];
+
+@mI_BASES_22 = [
+  dvT_K_YA
+  dvS_K_VA
+  dvL_TH_YA
+  dvK_S_TA
+  dvK_T_YA
+  dvN_K_SA
+];
+
+@mI_BASES_23 = [
+  dvK_V_YA
+  dvL_L_YA
+  dvK_S_P_RA
+];
+
+@mI_BASES_24 = [
+  dvN_S_M_YA
+];
+
+@mI_BASES_25 = [
+  dvL_K_YA
+];
+
+@mI_BASES_26 = [.notdef];
+
+@mI_BASES_27 = [.notdef];
+
+@mI_BASES_28 = [.notdef];
+
+@mI_BASES_29 = [.notdef];
+
+@mI_BASES_30 = [.notdef];
+
+@mI_BASES_31 = [
+  dvK_S_P_LA
+];
+
+@mI_BASES_32 = [.notdef];
+
+# RULES
+
+  sub dvmI' @mI_BASES_01 by dvmI.a01;
+# sub dvmI' @mI_BASES_02 by dvmI.a02;
+  sub dvmI' @mI_BASES_03 by dvmI.a03;
+  sub dvmI' @mI_BASES_04 by dvmI.a04;
+  sub dvmI' @mI_BASES_05 by dvmI.a05;
+  sub dvmI' @mI_BASES_06 by dvmI.a06;
+  sub dvmI' @mI_BASES_07 by dvmI.a07;
+  sub dvmI' @mI_BASES_08 by dvmI.a08;
+  sub dvmI' @mI_BASES_09 by dvmI.a09;
+  sub dvmI' @mI_BASES_10 by dvmI.a10;
+  sub dvmI' @mI_BASES_11 by dvmI.a11;
+  sub dvmI' @mI_BASES_12 by dvmI.a12;
+  sub dvmI' @mI_BASES_13 by dvmI.a13;
+  sub dvmI' @mI_BASES_14 by dvmI.a14;
+  sub dvmI' @mI_BASES_15 by dvmI.a15;
+  sub dvmI' @mI_BASES_16 by dvmI.a16;
+  sub dvmI' @mI_BASES_17 by dvmI.a17;
+  sub dvmI' @mI_BASES_18 by dvmI.a18;
+  sub dvmI' @mI_BASES_19 by dvmI.a19;
+  sub dvmI' @mI_BASES_20 by dvmI.a20;
+  sub dvmI' @mI_BASES_21 by dvmI.a21;
+  sub dvmI' @mI_BASES_22 by dvmI.a22;
+  sub dvmI' @mI_BASES_23 by dvmI.a23;
+  sub dvmI' @mI_BASES_24 by dvmI.a24;
+  sub dvmI' @mI_BASES_25 by dvmI.a25;
+# sub dvmI' @mI_BASES_26 by dvmI.a26;
+# sub dvmI' @mI_BASES_27 by dvmI.a27;
+# sub dvmI' @mI_BASES_28 by dvmI.a28;
+# sub dvmI' @mI_BASES_29 by dvmI.a29;
+# sub dvmI' @mI_BASES_30 by dvmI.a30;
+  sub dvmI' @mI_BASES_31 by dvmI.a31;
+# sub dvmI' @mI_BASES_32 by dvmI.a32;
