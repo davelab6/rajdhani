@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvK_TTA" format="1">
+  <advance width="980"/>
+  <outline>
+    <contour>
+      <point x="709" y="46" type="move" name="blwm_halant"/>
+    </contour>
+    <contour>
+      <point x="745" y="-20" type="move" name="blwm_Ukaar"/>
+    </contour>
+    <contour>
+      <point x="846" y="79" type="move" name="blwm_Rashtra"/>
+    </contour>
+    <contour>
+      <point x="811" y="-20" type="move" name="blwm_VocalicR"/>
+    </contour>
+    <contour>
+      <point x="791" y="623" type="move" name="abvm_Anusvara"/>
+    </contour>
+    <contour>
+      <point x="706" y="-24" type="move" name="blwm_Uukaar"/>
+    </contour>
+    <contour>
+      <point x="881" y="623" type="move" name="abvm_Ekaar"/>
+    </contour>
+    <component base="dvTTA" xOffset="501"/>
+    <component base="dvK"/>
+  </outline>
+</glyph>
