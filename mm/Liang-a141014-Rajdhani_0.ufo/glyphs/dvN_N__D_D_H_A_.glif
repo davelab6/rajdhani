@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvNN_DDHA" format="1">
+  <advance width="908"/>
+  <outline>
+    <contour>
+      <point x="798" y="623" type="move" name="abvm_Ekaar"/>
+    </contour>
+    <contour>
+      <point x="707" y="623" type="move" name="abvm_Anusvara"/>
+    </contour>
+    <contour>
+      <point x="695" y="-16" type="move" name="blwm_Ukaar"/>
+    </contour>
+    <contour>
+      <point x="662" y="-16" type="move" name="blwm_Uukaar"/>
+    </contour>
+    <contour>
+      <point x="673" y="41" type="move" name="blwm_halant"/>
+    </contour>
+    <contour>
+      <point x="737" y="-16" type="move" name="blwm_VocalicR"/>
+    </contour>
+    <contour>
+      <point x="795" y="57" type="move" name="blwm_Rashtra"/>
+    </contour>
+    <component base="dvNN"/>
+    <component base="dvDDHA" xOffset="423"/>
+  </outline>
+</glyph>
