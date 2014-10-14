@@ -1,12 +1,11 @@
 #!/usr/bin/python
 
-from subprocess import call
-import os.path
+import subprocess
 import itfgfd
 
-family_name = 'Rajdhani'
+FAMILY_NAME = 'Rajdhani'
 
-style_name_list = [
+STYLE_NAMES = [
   'Light',
   'Regular',
   'Medium',
@@ -14,7 +13,7 @@ style_name_list = [
   'Bold',
 ]
 
-UFOInstanceGenerator_arg_list = [
+UFOIG_ARGS = [
   # '-kern',
   '-mark',
   # '-hint',
@@ -24,12 +23,12 @@ UFOInstanceGenerator_arg_list = [
   '-indi',
 ]
 
-MakeOTF_arg_list = [
+MAKEOTF_ARGS = [
   '-r',
   '-shw',
 ]
 
-match_mI_offset_dict = {
+MATCH_mI_OFFSETS_DICT = {
   'Light':    0,
   'Regular':  0,
   'Medium':   0,
@@ -37,54 +36,17 @@ match_mI_offset_dict = {
   'Bold':     0,
 }
 
+# Generate OpenType classes:
+itfgfd.generate_classes(itfgfd.get_font('mm', suffix = '_0'))
 
-print '\n#ITF: Resetting style directories...'
-call(['rm', '-fr', 'styles'])
-call(['mkdir', 'styles'])
-for style_name in style_name_list:
-  itfgfd.reset_style_dir(style_name)
-  print '\tReset %s.' % style_name
-print '#ITF: Done.\n'
+# Reset style directories:
+itfgfd.reset_style_dir(STYLE_NAMES)
 
+# Interpolate instances:
+subprocess.call(['UFOInstanceGenerator.py', 'mm', '-o', 'styles'] + UFOIG_ARGS)
 
-call(
-  [
-    'UFOInstanceGenerator.py',
-    'mm',
-    '-o', 'styles',
-  ] + UFOInstanceGenerator_arg_list
-)
+# Match mI (matra i) variants to base glyphs:
+itfgfd.match_mI(STYLE_NAMES, MATCH_mI_OFFSETS_DICT)
 
-
-print '\n#ITF: Matching mI...'
-for style_name in style_name_list:
-  itfgfd.match_mI(
-    style_name,
-    stem_position_offset = match_mI_offset_dict[style_name],
-  )
-  print '\tMatched mI for %s.' % style_name
-print '#ITF: Done.\n'
-
-
-call(['rm', '-fr', 'build'])
-call(['mkdir', 'build'])
-
-for style_name in style_name_list:
-
-  otf_path = 'build/%s-%s.otf' % (family_name, style_name)
-  style_dir = 'styles/' + style_name
-
-  call(
-    [
-      'makeotf',
-      '-f', style_dir + '/font.ufo',
-      '-o', otf_path,
-      '-mf', 'FontMenuNameDB',
-      '-gf', 'GlyphOrderAndAliasDB',
-    ] + MakeOTF_arg_list
-  )
-
-  call(['rm', '-f', style_dir + '/current.fpr'])
-
-  if os.path.exists(otf_path):
-    call(['cp', '-f', otf_path, '/Library/Application Support/Adobe/Fonts'])
+# Compile OTFs:
+itfgfd.call_makeotf(FAMILY_NAME, STYLE_NAMES, MAKEOTF_ARGS)

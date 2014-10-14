@@ -1,6 +1,6 @@
-# Created: Mon Oct 13 21:42:40 2014
+# Created: Tue Oct 14 20:17:16 2014
 # PS Name: Rajdhani-Medium
-# MM Inst: 440 : Liang-b131014-Rajdhani_0.ufo / Liang-b131014-Rajdhani_1.ufo
+# MM Inst: None
 # exported from noApp
 
 # NOTE: The markClass declarations can be found in the file 'markclasses.fea'.
@@ -260,6 +260,7 @@ lookup MARK_BASE_abvm_Ekaar {
 # 	pos base dvmI.a21 <anchor 1451 704> mark @MC_abvm_Reph_alt;
 # 	pos base dvmI.a22 <anchor 1498 704> mark @MC_abvm_Reph_alt;
 # 	pos base dvmI.a23 <anchor 1545 704> mark @MC_abvm_Reph_alt;
+# 	pos base dvmI.a24 <anchor 1592 704> mark @MC_abvm_Reph_alt;
 # 	pos base dvmI.a25 <anchor 1640 704> mark @MC_abvm_Reph_alt;
 # 	pos base dvmI.a26 <anchor 1687 704> mark @MC_abvm_Reph_alt;
 # 	pos base dvmI.a27 <anchor 1734 704> mark @MC_abvm_Reph_alt;
@@ -272,37 +273,38 @@ lookup MARK_BASE_abvm_Ekaar {
 
 
 lookup MARK_BASE_abvm_Reph_alt {
-  pos base @mI_BASES_01 <anchor 275 704> mark @MC_abvm_Reph_alt;
-# pos base @mI_BASES_02 <anchor 322 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_03 <anchor 369 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_04 <anchor 416 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_05 <anchor 463 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_06 <anchor 510 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_07 <anchor 558 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_08 <anchor 605 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_09 <anchor 652 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_10 <anchor 699 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_11 <anchor 746 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_12 <anchor 794 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_13 <anchor 841 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_14 <anchor 888 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_15 <anchor 935 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_16 <anchor 982 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_17 <anchor 1028 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_18 <anchor 1077 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_19 <anchor 1123 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_20 <anchor 1171 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_21 <anchor 1218 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_22 <anchor 1265 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_23 <anchor 1312 704> mark @MC_abvm_Reph_alt;
-# pos base @mI_BASES_25 <anchor 1407 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_26 <anchor 1454 704> mark @MC_abvm_Reph_alt;
-# pos base @mI_BASES_27 <anchor 1501 704> mark @MC_abvm_Reph_alt;
-# pos base @mI_BASES_28 <anchor 1548 704> mark @MC_abvm_Reph_alt;
-# pos base @mI_BASES_29 <anchor 1595 704> mark @MC_abvm_Reph_alt;
-# pos base @mI_BASES_30 <anchor 1642 704> mark @MC_abvm_Reph_alt;
-# pos base @mI_BASES_31 <anchor 1690 704> mark @MC_abvm_Reph_alt;
-  pos base @mI_BASES_32 <anchor 1789 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_01 <anchor 275 704> mark @MC_abvm_Reph_alt;
+#	pos base @mI_BASES_02 <anchor 322 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_03 <anchor 369 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_04 <anchor 416 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_05 <anchor 463 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_06 <anchor 510 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_07 <anchor 558 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_08 <anchor 605 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_09 <anchor 652 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_10 <anchor 699 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_11 <anchor 746 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_12 <anchor 794 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_13 <anchor 841 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_14 <anchor 888 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_15 <anchor 935 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_16 <anchor 982 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_17 <anchor 1028 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_18 <anchor 1077 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_19 <anchor 1123 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_20 <anchor 1171 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_21 <anchor 1218 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_22 <anchor 1265 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_23 <anchor 1312 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_24 <anchor 1359 704> mark @MC_abvm_Reph_alt;
+#	pos base @mI_BASES_25 <anchor 1407 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_26 <anchor 1454 704> mark @MC_abvm_Reph_alt;
+#	pos base @mI_BASES_27 <anchor 1501 704> mark @MC_abvm_Reph_alt;
+#	pos base @mI_BASES_28 <anchor 1548 704> mark @MC_abvm_Reph_alt;
+#	pos base @mI_BASES_29 <anchor 1595 704> mark @MC_abvm_Reph_alt;
+#	pos base @mI_BASES_30 <anchor 1642 704> mark @MC_abvm_Reph_alt;
+#	pos base @mI_BASES_31 <anchor 1690 704> mark @MC_abvm_Reph_alt;
+	pos base @mI_BASES_32 <anchor 1789 704> mark @MC_abvm_Reph_alt;
 } MARK_BASE_abvm_Reph_alt;
 
 

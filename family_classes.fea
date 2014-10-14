@@ -1,37 +1,34 @@
 #!opentype
 
-# Contents:
+# CONTENTS:
 # @COMBINING_MARKS
 # @mII_BASES
 # @mI_ALTS
 # @mI_BASES
 
 @COMBINING_MARKS = [
-  dvAnusvara
-  dvAnusvara.amI
-  dvCandrabindu
-  # dvRashtrasign
-  dvReph
-  dvReph.amI
-  dvReph_Anusvara
-  dvReph_Anusvara.amI
-  dvVirama
-  dvmAI
-  dvmAI_Anusvara
-  dvmAI_Reph
-  dvmAI_Reph_Anusvara
-  dvmE
-  dvmE_Anusvara
-  dvmE_Reph
-  dvmE_Reph_Anusvara
-  dvmEcandra
-  dvmEcandra_Anusvara
   dvmU
   dvmUU
   dvmvR
-  # dvmvRR
-  # dvmvL
-  # dvmvLL
+  dvmE
+  dvmAI
+  dvmEcandra
+  dvAnusvara
+  dvCandrabindu
+  dvVirama
+  dvReph
+  dvRashtrasign
+  dvReph_Anusvara
+  dvAnusvara.amI
+  dvReph.amI
+  dvReph_Anusvara.amI
+  dvmE_Anusvara
+  dvmE_Reph
+  dvmE_Reph_Anusvara
+  dvmAI_Anusvara
+  dvmAI_Reph
+  dvmAI_Reph_Anusvara
+  dvmEcandra_Anusvara
 ];
 
 @mII_BASES = [
@@ -176,13 +173,10 @@
   dvBH_RA
   dvM_RA
   dvY_RA
-  # dvL_RA
   dvV_RA
-  # dvSS_RA
   dvSH_RA
   dvS_RA
   dvH_RA
-  # dvLL_RA
   dvKx_RA
   dvKHx_RA
   dvGx_RA

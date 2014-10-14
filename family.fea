@@ -5,7 +5,7 @@ languagesystem dev2 dflt;
 languagesystem deva dflt;
 
 table head {
-  FontRevision 1.301;
+  FontRevision 1.302;
 } head;
 
 include (../../family_classes.fea);
@@ -806,6 +806,8 @@ feature pres {
   sub dvH dvVA by dvH_VA;
 
   sub dvLL dvYA by dvLL_YA;
+
+  # MATRA I
 
   include (pres_mI.fea);
 

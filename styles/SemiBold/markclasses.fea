@@ -1,17 +1,18 @@
-# Created: Mon Oct 13 21:43:01 2014
+# Created: Tue Oct 14 20:17:38 2014
 # PS Name: Rajdhani-SemiBold
-# MM Inst: 700 : Liang-b131014-Rajdhani_0.ufo / Liang-b131014-Rajdhani_1.ufo
+# MM Inst: None
 # exported from noApp
 
-@mGC_abvm_Anusvara_n72_623 = [dvAnusvara dvCandrabindu dvmEcandra dvmEcandra_Anusvara];
-@mGC_abvm_Ekaar_n64_623 = [dvmAI_Anusvara dvmAI_Reph dvmAI_Reph_Anusvara dvmE_Reph dvmE_Reph_Anusvara];
-@mGC_abvm_Ekaar_n72_623 = [dvReph dvReph_Anusvara dvmAI dvmE dvmE_Anusvara];
+@mGC_abvm_Anusvara_n72_623 = [dvmEcandra dvAnusvara dvCandrabindu dvmEcandra_Anusvara];
+@mGC_abvm_Ekaar_n64_623 = [dvmE_Reph dvmE_Reph_Anusvara dvmAI_Anusvara dvmAI_Reph dvmAI_Reph_Anusvara];
+@mGC_abvm_Ekaar_n72_623 = [dvmE dvmAI dvReph dvReph_Anusvara dvmE_Anusvara];
 @mGC_abvm_Reph_alt_0_623 = [dvAnusvara.amI dvReph.amI dvReph_Anusvara.amI];
 
 markClass @mGC_abvm_Anusvara_n72_623 <anchor -72 623> @MC_abvm_Anusvara;
 markClass @mGC_abvm_Ekaar_n64_623 <anchor -64 623> @MC_abvm_Ekaar;
 markClass @mGC_abvm_Ekaar_n72_623 <anchor -72 623> @MC_abvm_Ekaar;
 markClass @mGC_abvm_Reph_alt_0_623 <anchor 0 623> @MC_abvm_Reph_alt;
+markClass dvRashtrasign <anchor -163 0> @MC_blwm_Rashtra;
 markClass dvVirama <anchor -163 0> @MC_blwm_halant;
 markClass dvmU <anchor -163 0> @MC_blwm_Ukaar;
 markClass dvmUU <anchor -163 0> @MC_blwm_Uukaar;

@@ -1,6 +1,11 @@
 #!opentype
 
-@vLiquids  = [dvvR  dvvRR  dvvL  dvvLL];
+@vLiquids  = [
+  dvvR
+  dvvRR
+  dvvL
+  dvvLL
+];
 
 @mvLiquids = [
   dvmvR

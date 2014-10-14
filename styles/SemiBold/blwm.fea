@@ -1,9 +1,51 @@
-# Created: Mon Oct 13 21:43:01 2014
+# Created: Tue Oct 14 20:17:38 2014
 # PS Name: Rajdhani-SemiBold
-# MM Inst: 700 : Liang-b131014-Rajdhani_0.ufo / Liang-b131014-Rajdhani_1.ufo
+# MM Inst: None
 # exported from noApp
 
 # NOTE: The markClass declarations can be found in the file 'markclasses.fea'.
+
+lookup MARK_BASE_blwm_Rashtra {
+	@bGC_dvNN_TTHA_blwm_Rashtra = [dvNN_TTHA dvL_TTA dvL_DDHA];
+	@bGC_dvTT_TTA_blwm_Rashtra = [dvTT_TTA dvTT_TTHA];
+	pos base @bGC_dvNN_TTHA_blwm_Rashtra <anchor 769 93> mark @MC_blwm_Rashtra;
+	pos base @bGC_dvTT_TTA_blwm_Rashtra <anchor 339 -235> mark @MC_blwm_Rashtra;
+	pos base dvCHA <anchor 385 98> mark @MC_blwm_Rashtra;
+	pos base dvC_CHA <anchor 739 98> mark @MC_blwm_Rashtra;
+	pos base dvDDA <anchor 336 58> mark @MC_blwm_Rashtra;
+	pos base dvDDHA <anchor 350 93> mark @MC_blwm_Rashtra;
+	pos base dvDDH_DDHA <anchor 339 -190> mark @MC_blwm_Rashtra;
+	pos base dvDD_DDA <anchor 343 -248> mark @MC_blwm_Rashtra;
+	pos base dvDD_DDHA <anchor 336 -206> mark @MC_blwm_Rashtra;
+	pos base dvJ_DDA <anchor 655 58> mark @MC_blwm_Rashtra;
+	pos base dvJ_TTA <anchor 669 93> mark @MC_blwm_Rashtra;
+	pos base dvK_S_DDA <anchor 1230 58> mark @MC_blwm_Rashtra;
+	pos base dvK_S_TTA <anchor 1211 93> mark @MC_blwm_Rashtra;
+	pos base dvK_TTA <anchor 836 93> mark @MC_blwm_Rashtra;
+	pos base dvL_DDA <anchor 753 58> mark @MC_blwm_Rashtra;
+	pos base dvL_TTHA <anchor 766 93> mark @MC_blwm_Rashtra;
+	pos base dvL_V_DDA <anchor 1089 58> mark @MC_blwm_Rashtra;
+	pos base dvNN_DDA <anchor 755 58> mark @MC_blwm_Rashtra;
+	pos base dvNN_DDHA <anchor 773 93> mark @MC_blwm_Rashtra;
+	pos base dvNN_TTA <anchor 770 93> mark @MC_blwm_Rashtra;
+	pos base dvNY_CHA <anchor 702 98> mark @MC_blwm_Rashtra;
+	pos base dvN_CHA <anchor 598 98> mark @MC_blwm_Rashtra;
+	pos base dvN_DDA <anchor 566 58> mark @MC_blwm_Rashtra;
+	pos base dvN_S_TTA <anchor 963 93> mark @MC_blwm_Rashtra;
+	pos base dvN_TTA <anchor 569 93> mark @MC_blwm_Rashtra;
+	pos base dvPH_TTA <anchor 866 93> mark @MC_blwm_Rashtra;
+	pos base dvP_TTA <anchor 339 27> mark @MC_blwm_Rashtra;
+	pos base dvP_TTHA <anchor 344 30> mark @MC_blwm_Rashtra;
+	pos base dvSH_CHA <anchor 783 98> mark @MC_blwm_Rashtra;
+	pos base dvSH_TTA <anchor 731 93> mark @MC_blwm_Rashtra;
+	pos base dvSS_TTA <anchor 352 27> mark @MC_blwm_Rashtra;
+	pos base dvSS_TTHA <anchor 349 30> mark @MC_blwm_Rashtra;
+	pos base dvS_TTA <anchor 708 93> mark @MC_blwm_Rashtra;
+	pos base dvTTA <anchor 339 93> mark @MC_blwm_Rashtra;
+	pos base dvTTHA <anchor 341 93> mark @MC_blwm_Rashtra;
+	pos base dvTTH_TTHA <anchor 343 -253> mark @MC_blwm_Rashtra;
+} MARK_BASE_blwm_Rashtra;
+
 
 lookup MARK_BASE_blwm_Ukaar {
 	@bGC_dvKA_blwm_Ukaar = [dvKA dvKxA dvK_RA dvKx_RA];
