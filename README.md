@@ -7,6 +7,10 @@ The letterforms are modularised; their squared and condensed appearance may be i
 
 Satya Rajpurohit and Jyotish Sonowal developed the Devanagari part in the Rajdhani family together, while the Latin was designed by Shiva Nalleperumal. The Indian Type Foundry first published the family in 2014.
 
+## Boilerplate
+
+Rajdhani’s working directory, including build scripts and OpenType features files, is inheriteded from [the common code base](https://github.com/itfoundry/boilerplate-gfd) we built for Google Fonts projects.
+
 ## Dependencies
 
 - [Adobe Font Development Kit for OpenType (AFDKO)](http://www.adobe.com/devnet/opentype/afdko.html), version 2.5 build 63209 (Sep 18 2014) or newer.
